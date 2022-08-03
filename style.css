@@ -1,0 +1,138 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #000;
+	color: #fff;
+	font-family: "Verdana", sans-serif;
+	font-size: 12px;
+}
+
+i {
+	font-size: 24px;
+	color: #fff;
+}
+
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	border: 0px solid #fff;
+	border-radius: 5px;
+}
+
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	border: 1px solid #666;
+}
+
+.task_input {
+	width: 95%;
+	height: 15px; 
+	padding: 10px;
+	border: 2px solid #fff;
+}
+
+.add_btn {
+	height: 39px;
+	background: #08c;
+	color: 	#fff;
+	border: 1px solid #ddd;
+	border-radius: 5px; 
+	padding: 5px 20px;
+	font-size: 16px;
+	transition-duration: 0.4s;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #666;
+}
+
+tr:hover {
+	background: #333;
+}
+
+th, td{
+	border: none;
+	text-align: left;
+}
+
+.task {
+	text-align: left;
+	height: 40px;
+}
+
+div#delete {
+	width: 10%;
+	height: 10px;
+	color: white;
+	background: #a00;
+	padding: 8px 15px;
+	border-radius: 3px;
+	text-decoration: none;
+	border: 1px solid #999;
+}
+
+div#edit {
+	width: 10%;
+	height: 10px;
+	color: white;
+	background: #090;
+	padding: 8px 15px;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+.fertig {
+	text-decoration: line-through;
+}
+
+@media only screen and (orientation: portrait) {
+	.heading {
+		width: 98%;
+		margin: 5px auto;
+	}
+	.task_input {
+		width: 90%;
+	}
+	h2, i {
+		font-size: 28px;
+	}
+	form {
+		width: 90%;
+		margin: 5px auto;
+	}
+	table {
+		width: 98%;
+		margin: 5px auto;
+	}
+}
+
+.rainbow {
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+	color:transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.error {
+	color: #f00;
+	margin: 0px;
+}
